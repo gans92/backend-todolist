@@ -1,0 +1,26 @@
+### test
+GET http://localhost:3003/health
+
+### post
+POST http://localhost:3003/todos
+Content-Type: application/json
+
+{
+    "name": "teste de criação"
+}
+
+### get
+GET http://localhost:3003/todos
+
+### put
+PUT http://localhost:3003/todos
+Content-Type: application/json
+
+{
+    "id": 5,
+    "name": "teste de atualização",
+    "status": false
+}
+
+### delete
+DELETE http://localhost:3003/todos/5
